@@ -1,6 +1,6 @@
 # Create-Your-Portfolio-Coursera-Advanced-React-project
 Instructions
-#Task
+# Task
 In this final lab, you are going to create a portfolio page for yourself. You will be using the skills you have learned in this course to create a page that showcases your work. The portfolio page will be a single page that will contain the following sections:
 
 A header with external links to social media accounts and internal links to other sections of the page
@@ -28,12 +28,12 @@ The app outputs a page with an empty header, 3 different full-height sections an
 
 drawing
 
-Steps
+# Steps
 Once you open the code lab, you need to install the Chakra UI and other referenced libraries by running the npm install command from the built-in terminal in the code lab. To toggle the built-in terminal, you need to click the View menu item, then choose the Terminal in the dropdown.
 
 Once the terminal is open (visible), you can run the npm install command. This will install all the required missing dependencies, so that you can begin working on the task.
 
-Step 1
+# Step 1
 Open Header.js file. You will see a header component with black background, but no content.
 
 a) Add external social media links to the header on the left side of the page.
@@ -60,12 +60,12 @@ The final header UI should look like below:
 
 drawing
 
-Step 2
+# Step 2
 Open the LandingSection.js file. Implement the below UI to provide a landing section for the app with an avatar, a greeting and a brief role description. For the data, use the variables provided at the top of the file (greeting, bio1 and bio2) and not personal data. For the avatar you can use the next url: https://i.pravatar.cc/150?img=7 All the components you need have been already imported for you.
 
 drawing
 
-Step 3
+# Step 3
 Open the ProjectsSection.js component. This component is already implemented, however the Card component that it uses to display information about each project it's not. The ProjectsSection component already defines a projects array with the data for each project and that information is passed to each Card component as props.
 
 Open the Card.js component and implement the UI for the card. Each card should look like the image below:
@@ -83,7 +83,7 @@ For the right arrow, use the below component. The necessary imports are already 
 
 Avoid any key related warnings when opening the console.
 
-Step 4
+# Step 4
 Open the ContactMeSection.js component. Implement the remaining requirements of the form according to the below specifications.
 
 The form contains 4 input fields: name, email address, type of enquiry and message.
@@ -152,7 +152,7 @@ drawing
 
 drawing
 
-Step 5 (bonus)
+# Step 5 (bonus)
 Implement a header show/hide animation depending on the scroll direction. The header should slide up with some animation and be hidden when scrolling down the page. When scrolling up, the header should slide down and be visible.
 
 For that, the outermost Box component has some transition properties already defined. Your logic should change the transform property of the underlying Box DOM element depending on the scroll direction.
